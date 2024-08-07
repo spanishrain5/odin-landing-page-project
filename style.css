@@ -1,0 +1,9 @@
+html {
+   height: 100%; 
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font: 18px "Roboto", sans-serif;
+}
