@@ -76,7 +76,7 @@ header :first-child {
     font-weight: bold;
     color: #F9FAF8;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px 30px;
     flex: 0 0 auto;
     align-self: flex-start;
@@ -151,4 +151,49 @@ header :first-child {
     font-size: 24px;
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call-to-action-wrapper {
+    display: flex;
+    padding: 90px 10vw;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    width: 100%;
+    padding: 50px 20vh;
+    box-sizing: content-box;
+    max-width: 1675px;
+    align-items: center;
+    border-radius: 8px;
+    /* margin: auto; */
+}
+
+.call-to-action-text > h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+
+.call-to-action-text > p {
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action > button {
+    margin-left: auto;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0px 30px;
+    height: 40px;
+    flex: 0 0 auto;
 }
