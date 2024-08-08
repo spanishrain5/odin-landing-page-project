@@ -129,3 +129,26 @@ header :first-child {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 25vw 100px 25vw;
+    gap: 20px;
+}
+
+.quote > p {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote > div {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bold;
+}
