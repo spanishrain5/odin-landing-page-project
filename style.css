@@ -197,3 +197,15 @@ header :first-child {
     height: 40px;
     flex: 0 0 auto;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px 0px;
+}
+
+footer > * {
+    margin: auto;
+}
