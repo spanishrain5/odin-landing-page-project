@@ -23,7 +23,7 @@ header {
 }
 
 header > * {
-    font: 18px;
+    font-size: 18px;
     color: #E5E7EB
 }
 
@@ -33,4 +33,61 @@ header :first-child {
     color: #F9FAF8;
     font-weight: 1000;
 }
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.hero {
+    align-self: center;
+    display: flex;
+    gap: 50px;
+    padding: 150px 10vw;
+    background-color: #1F2937;
+}
+
+.hero-col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-col1 > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+    margin: 0;
+    margin-bottom: -7px;
+    padding: 0;
+}
+
+.hero-col1 > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-col1 > button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+
+.hero > img {
+    height: 300px;
+    width: 650px;
+    flex: 0 0 auto;
+    align-self: center;
+}
+
+
 
